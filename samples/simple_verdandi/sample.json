@@ -1,0 +1,11 @@
+{
+  "classes":{
+    "nornir.samples":{
+      "Person": { "name" : "String", "address" : "String" },
+      "People": { "people" : "Array<Person>" }
+    }
+    "":{
+      "NoPackageClass" {}
+    }
+  }
+}

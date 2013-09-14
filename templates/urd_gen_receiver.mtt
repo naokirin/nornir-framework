@@ -1,0 +1,10 @@
+package ::package_name::;
+
+/**
+ * Auto generated Reciever class by nornir-framework.
+ */
+
+::class_name:: {
+
+::methods::
+}

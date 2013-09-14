@@ -1,0 +1,13 @@
+package ::package_name::;
+
+/**
+ * Auto generated data class by nornir-framework.
+ */
+
+class ::class_name:: {
+  public function new(::new_arg::) {
+::new_substitution::
+  }
+
+::fields::
+}

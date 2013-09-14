@@ -1,0 +1,18 @@
+Usage: verdandi FILE ...
+
+    Execute 'nornir' subcommands specified FILE.
+
+    example '*.norn' file
+    ============================
+    -j data1.json
+    -j data2.json
+    -j mail.json
+
+    verdandi
+    urd
+    skuld
+    ============================
+
+Arguments
+
+    FILE : Norn file for specified json files and subcommands.

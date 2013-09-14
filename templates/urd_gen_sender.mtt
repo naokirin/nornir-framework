@@ -1,0 +1,13 @@
+package ::package_name::;
+
+/**
+ * Auto generated data class by nornir-framework.
+ * This file is NOT rewrite yourself. Only call methods of this class.
+ */
+
+::imports::
+
+::class_name:: {
+
+::methods::
+}

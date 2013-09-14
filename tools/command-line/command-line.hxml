@@ -1,0 +1,14 @@
+-lib mlib
+-cp ../../
+-cp command
+-main CommandLineTool
+-neko ../../run.n
+
+
+-resource ../../templates/help_verdandi.txt@help_verdandi
+-resource ../../templates/help_urd.txt@help_urd
+-resource ../../templates/help_norn.txt@help_norn
+
+-resource ../../templates/verdandi_gen_class.mtt@verdandi_gen_class
+-resource ../../templates/urd_gen_receiver.mtt@urd_gen_receiver
+-resource ../../templates/urd_gen_sender.mtt@urd_gen_sender

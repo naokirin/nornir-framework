@@ -1,0 +1,19 @@
+{
+  "classes":{
+    "nornir.samples": {
+      "Person": { "name" : "String", "address":"String" },
+      "People": { "people" : "Array<Person>" },
+      "MailData": { "sender":"Person", "receiver":"People", "subject":"String", "body":"String" }
+    }
+  },
+  "server":{
+    "nornir.samples": {
+      "MailToAdressee": { "Mail" : "MailData" }
+    }
+  },
+  "client":{
+    "nornir.samples": {
+      "MailToMailServer": { "Mail" : "MailData" }
+    }
+  }
+}

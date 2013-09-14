@@ -1,0 +1,7 @@
+Usage: verdandi FILE ...
+
+    Generate classes of data sender and receiver from FILE to be json FILE.
+
+Arguments
+
+    FILE : Json file for generating classes.
