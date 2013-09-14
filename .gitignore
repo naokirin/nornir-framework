@@ -1,0 +1,12 @@
+*~
+*.swp
+Export/
+.DS_Store
+build/
+report/
+.build
+main_cpp/
+generated/
+*.n
+!run.n
+
