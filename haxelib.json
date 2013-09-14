@@ -1,0 +1,11 @@
+{
+  "name": "nornir",
+  "url": "",
+  "license": "MIT",
+  "description": "Nornir-framework helps to make your server/client system.",
+  "version": "1.0.0",
+  "tags": [ "" ],
+  "releasenote": "",
+  "contributors": [ "naokirin" ],
+  "dependencies": {"mlib":""}
+}
