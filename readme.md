@@ -33,7 +33,7 @@ haxelib nornir verdandi json/sample.json
 
 'verdandi' command read json file and make classes following an element of 'classes'.
 
-```json/sample.json
+```json:json/sample.json
 {
   "classes":{
     "nornir.samples": {
@@ -53,7 +53,7 @@ haxelib nornir verdandi json/sample.json
 haxelib nornri urd json/sample.json
 ```
 
-```json/sample.json
+```json:json/sample.json
 {
   "classes":{
   ...
@@ -75,3 +75,21 @@ haxelib nornri urd json/sample.json
 
 Skuld is not command but a library.
 For how to use, See TestServer.hx and TestClient.hx.
+
+
+### 'norn' command
+
+'norn' command is to execute 'verdandi' and 'urd' at once.
+
+```
+haxelib nornir norn sample.norn
+```
+
+```text:sample.norn
+-j json/sample.json
+
+verdandi
+urd
+```
+
+In norn file you specify json file by '-j' and command to want to execute.
