@@ -1,0 +1,17 @@
+-cp ./generated/classes
+-cp ./generated/server
+-cp ./generated/client
+-lib nornir
+-main TestServer
+
+-neko server.n
+
+--next
+
+-cp ./generated/classes
+-cp ./generated/server
+-cp ./generated/client
+-lib nornir
+-main TestClient
+
+-neko client.n
