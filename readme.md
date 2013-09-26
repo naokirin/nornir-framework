@@ -28,7 +28,7 @@ cd samples/simple_skuld
 Next step is to execute 'verdandi' command.
 
 ```
-haxelib nornir verdandi json/sample.json
+haxelib run nornir verdandi json/sample.json
 ```
 
 'verdandi' command read json file and make classes following an element of 'classes'.
@@ -50,7 +50,7 @@ haxelib nornir verdandi json/sample.json
 'urd' command make procedures following elements without 'classes' in json file.
 
 ```
-haxelib nornri urd json/sample.json
+haxelib run nornri urd json/sample.json
 ```
 
 ```json:json/sample.json
@@ -82,7 +82,7 @@ For how to use, See TestServer.hx and TestClient.hx.
 'norn' command is to execute 'verdandi' and 'urd' at once.
 
 ```
-haxelib nornir norn sample.norn
+haxelib run nornir norn sample.norn
 ```
 
 ```text:sample.norn
