@@ -50,7 +50,7 @@ haxelib run nornir verdandi json/sample.json
 'urd' command make procedures following elements without 'classes' in json file.
 
 ```
-haxelib run nornri urd json/sample.json
+haxelib run nornir urd json/sample.json
 ```
 
 ```json:json/sample.json
