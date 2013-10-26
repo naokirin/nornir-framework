@@ -1,6 +1,0 @@
--cp ./generated/classes
--cp ./generated/server
--lib nornir
--main Test
-
--neko test.n

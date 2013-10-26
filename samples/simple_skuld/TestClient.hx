@@ -3,9 +3,9 @@ package;
 import nornir.samples.MailData;
 import nornir.samples.People;
 import nornir.samples.Person;
-import nornir.samples.MailToAdresseeReceiver;
 import nornir.samples.MailToMailServerSender;
 import org.nornir.skuld.SkuldClient;
+import nornir.samples.MailToAddresseeReceiver;
 
 class TestClient {
   public static function main() {

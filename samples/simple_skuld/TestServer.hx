@@ -19,7 +19,7 @@ class TestServer {
     var server = new SkuldServer();
     var id = server.accept("localhost", 5000);
 
-    new MailToAdresseeSender(server, Broadcast)
+    new MailToAddresseeSender(server, Broadcast)
       .sendMail(new MailData({sender:arthur, receiver:people, subject:"hello!", body:"Hello!"}));
 
     for(k in people.people) {

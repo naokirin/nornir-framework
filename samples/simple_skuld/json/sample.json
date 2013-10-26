@@ -8,7 +8,7 @@
   },
   "server":{
     "nornir.samples": {
-      "MailToAdressee": { "Mail" : "MailData" }
+      "MailToAddressee": { "Mail" : "MailData" }
     }
   },
   "client":{
