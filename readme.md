@@ -99,3 +99,8 @@ urd
 ```
 
 In norn file you specify json file by '-j' and command to want to execute.
+
+
+## Note
+
+Generating receiver classes is not importing automatically, so you write to import reciever classes explicitly in your code.
