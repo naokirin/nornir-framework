@@ -8,6 +8,7 @@ import org.nornir.urd.ISender;
 class SkuldHost implements ISender {
   private var connections : SkuldConnections;
   private var total : Int;
+  private static inline var max = 100000000;
 
   public function new() {
     connections = new SkuldConnections();
@@ -19,6 +20,9 @@ class SkuldHost implements ISender {
     var connection = new SkuldConnection(socket, id);
     connections.add(connection);
     total += 1;
+    if (total > max) {
+      total = 0;
+    }
     return id;
   }
 
